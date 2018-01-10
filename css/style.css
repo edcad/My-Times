@@ -40,6 +40,7 @@ header ul li{
   padding: 20px 45px;
 }
 
+
 .column.large {
   width: 630px;
   display: flex;
@@ -58,6 +59,38 @@ header ul li{
 .column_title {
   font-size: 20pt;
   font-weight: bold;
+  display: flex;
+}
+
+#image_title_main {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+#image_title {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+
+#small_column_title {
+  font-size: 15pt;
+  font-weight: bold;
+}
+
+
+.box1 {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  height: 300px;
+  padding-right: 50px;
+}
+
+.box5 {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
 }
 
 .column_divider {
